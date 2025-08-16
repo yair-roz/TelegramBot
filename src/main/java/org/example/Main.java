@@ -41,7 +41,7 @@ public class Main {
         } catch (Exception e) {
             e.printStackTrace();
             JOptionPane.showMessageDialog(null,
-                    "אירעה שגיאה בהרצת הבוט:\n" + e.getMessage(),
+                    " שגיאה בהרצת הבוט:\n" + e.getMessage(),
                     "Error", JOptionPane.ERROR_MESSAGE);
         }
     }
