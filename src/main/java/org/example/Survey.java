@@ -28,7 +28,7 @@ public class Survey {
     public Survey(long creatorId, List<Question> qs, long delayMinutes) {
         this.creatorId   = creatorId;
         this.questions   = qs;
-        this.delayMillis = delayMinutes * 60 * 1000L; // כעת ללא שגיאת טיפוס
+        this.delayMillis = delayMinutes * 60 * 1000L;
     }
 
     public boolean isOpen() {

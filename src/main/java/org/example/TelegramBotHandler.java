@@ -136,7 +136,7 @@ public class TelegramBotHandler extends TelegramLongPollingBot {
     }
 
     private void sendResults(Survey survey) {
-        StringBuilder sb = new StringBuilder("📊 *תוצאות הסקר:*\n\n");
+        StringBuilder sb = new StringBuilder(" *תוצאות הסקר:*\n\n");
 
         for (int i = 0; i < survey.questions.size(); i++) {
             Survey.Question q = survey.questions.get(i);
